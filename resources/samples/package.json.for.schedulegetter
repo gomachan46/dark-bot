@@ -1,0 +1,19 @@
+{
+    "name": "dark-schedule-getter",
+        "version": "1.0.0",
+        "description": "",
+        "main": "main.js",
+        "dependencies": {
+            "libxmljs": "^0.14.2",
+            "moment": "^2.10.3",
+            "request": "^2.58.0",
+            "xml2js": "^0.4.9"
+        },
+        "devDependencies": {},
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC"
+}
+
