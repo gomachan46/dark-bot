@@ -42,6 +42,9 @@ config-check:
 run-new-channels:
 	./bin/start-new-channels $(credential)
 
+run-timeline:
+	./bin/start-timeline $(credential)
+
 compile:
 	./node_modules/.bin/babel src/es2015 --out-dir ./compiled --presets es2015
 
