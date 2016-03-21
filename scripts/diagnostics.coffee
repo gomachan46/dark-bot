@@ -6,10 +6,11 @@
 #   hubot echo <text> - Reply back with <text>
 #   hubot time - Reply with current time
 #
+config = require('config')
 
 module.exports = (robot) ->
   robot.respond /PING$/i, (msg) ->
-    msg.send "http://yamiga.waka.ru.com/images/ping.jpg"
+    msg.send config.images.ping
   robot.respond /ECHO (.*)$/i, (msg) ->
     msg.send msg.match[1]
   robot.respond /TIME$/i, (msg) ->

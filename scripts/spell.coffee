@@ -11,6 +11,7 @@
 #
 
 json = require '../settings/poems.json'
+conf = require "config"
 util = require './lib/util.coffee'
 spell = require './lib/spell.coffee'
 

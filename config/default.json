@@ -1,0 +1,12 @@
+{
+    "images": {
+        "ping": "https://ngineerxiv-dark.appspot.com/images/ping.jpg",
+        "hado": {
+            "90": {
+                "Normal": "https://ngineerxiv-dark.appspot.com/images/hado90.jpg",
+                "AA": "https://ngineerxiv-dark.appspot.com/images/hado90AA.jpg"
+            },
+            "none": "https://ngineerxiv-dark.appspot.com/images/hadonone.jpg"
+        }
+    }
+}
